@@ -1,6 +1,6 @@
 {
-  "name": "@weipu/svg-captcha",
-  "version": "1.4.3",
+  "name": "@viewpl-technology/svg-captcha",
+  "version": "1.4.4",
   "description": "generate svg captcha in node.js or express.js",
   "main": "index.js",
   "scripts": {
