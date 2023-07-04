@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/viewpl-technology/svg-captcha.git"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/@viewpl-technology"
+  },
   "keywords": [
     "captcha",
     "svg",
