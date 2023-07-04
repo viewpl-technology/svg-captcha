@@ -1,6 +1,6 @@
 {
   "name": "@viewpl-technology/svg-captcha",
-  "version": "1.4.7",
+  "version": "1.4.8",
   "description": "generate svg captcha in node.js or express.js",
   "main": "index.js",
   "scripts": {
