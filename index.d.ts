@@ -125,7 +125,4 @@ export function randomText(size: number): string;
  * @param {ConfigObject} [options]
  * @return {CaptchaObj}
  */
-export default function createCaptcha(
-	text: string,
-	options?: ConfigObject
-): CaptchaObj;
+export function createCaptcha(text: string, options?: ConfigObject): CaptchaObj;
