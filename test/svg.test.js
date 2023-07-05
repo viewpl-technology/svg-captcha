@@ -18,8 +18,8 @@ test('Filter chars', () => {
 
 const xmlReg = /^<svg[\s\S]+\/svg>$/;
 test('Old svgCaptcha() api', () => {
-	expect(svgCaptcha()).toMatch(xmlReg);
-	expect(svgCaptcha('abcd')).toMatch(xmlReg);
+	expect(svgCaptcha.createCaptcha()).toMatch(xmlReg);
+	expect(svgCaptcha.createCaptcha('abcd')).toMatch(xmlReg);
 });
 
 test('Current create() api', () => {
