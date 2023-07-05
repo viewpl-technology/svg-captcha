@@ -76,12 +76,12 @@ interface CaptchaObj {
 	 * the captcha text,
 	 * store this in your session
 	 */
-	text: string,
+	text: string;
 	/**
 	 * the svg image in string,
 	 * set type of image/svg before send to client side
 	 */
-	data: string
+	data: string;
 }
 /**
  * This method returns a object that has two props:
@@ -116,3 +116,16 @@ export const options: ConfigObject;
  * @return {string}
  */
 export function randomText(size: number): string;
+
+/**
+ * This method returns a object that has two props:
+ * data: svg image string
+ * text: captcha text
+ * @param {string} text
+ * @param {ConfigObject} [options]
+ * @return {CaptchaObj}
+ */
+export default function createCaptcha(
+	text: string,
+	options?: ConfigObject
+): CaptchaObj;
