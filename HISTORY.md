@@ -1,40 +1,37 @@
-1.4.1 / 2023-07-04
-===================
+# 1.5.4 / 2023-07-07
 
-* Forked as @viewplatgh/svg-captcha
+- Removed default api exports which has no typescript support, but added createCaptcha api with typescript definition
+- Updated README etc.
 
-1.4.0 / 2019-05-03
-===================
+  # 1.4.1 / 2023-07-04
 
-* Fixed #33 https://github.com/lemonce/svg-captcha/pull/33
+- Forked as @viewplatgh/svg-captcha
 
-1.3.11 / 2017-08-23
-===================
+  # 1.4.0 / 2019-05-03
 
-* Fix typescript definition
+- Fixed #33 https://github.com/lemonce/svg-captcha/pull/33
 
-1.3.9 / 2017-07-23
-===================
+  # 1.3.11 / 2017-08-23
 
-* Fix charSet options
+- Fix typescript definition
 
-1.3.8 / 2017-07-20
-===================
+  # 1.3.9 / 2017-07-23
 
-* Bump `opentype.js@0.7.3`
+- Fix charSet options
 
-1.3.7 / 2017-06-11
-===================
+  # 1.3.8 / 2017-07-20
 
-* Bump `opentype.js@0.7.2`
+- Bump `opentype.js@0.7.3`
 
-1.3.6 / 2017-06-03
-===================
+  # 1.3.7 / 2017-06-11
 
-* Improve security by randomize svg path command
+- Bump `opentype.js@0.7.2`
 
-1.3.5 / 2017-05-08
-===================
+  # 1.3.6 / 2017-06-03
 
-* Bump `opentype.js@0.7.1`
-* Fixed some code style inconsistence
+- Improve security by randomize svg path command
+
+  # 1.3.5 / 2017-05-08
+
+- Bump `opentype.js@0.7.1`
+- Fixed some code style inconsistence
