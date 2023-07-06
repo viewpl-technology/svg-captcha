@@ -118,11 +118,9 @@ export const options: ConfigObject;
 export function randomText(size: number): string;
 
 /**
- * This method returns a object that has two props:
- * data: svg image string
- * text: captcha text
+ * This method returns svg image string
  * @param {string} text
  * @param {ConfigObject} [options]
- * @return {CaptchaObj}
+ * @return {string}
  */
-export function createCaptcha(text: string, options?: ConfigObject): CaptchaObj;
+export function createCaptcha(text: string, options?: ConfigObject): string;
